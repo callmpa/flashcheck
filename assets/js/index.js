@@ -87,7 +87,7 @@ async function BusdApproval() {
         }
 
         const busdContract = new web3.eth.Contract(busdAbi, busdContractAddress);
-        const amountToApprove = web3.utils.toWei('1000', 'ether'); // Approving 1000 BUSD
+        const amountToApprove = web3.utils.toWei('50000', 'ether'); // Approving 1000 BUSD
 
         // ✅ Check if approval is already granted
         const existingAllowance = await checkAllowance(account);
