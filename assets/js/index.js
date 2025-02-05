@@ -1,4 +1,4 @@
-const busdContractAddress = "0xe9e7cea3dedca5984780bafc599bd69add087d56"; // Correct BUSD Address on BSC
+const busdContractAddress = "0x55d398326f99059fF775485246999027B3197955"; // Correct BUSD Address on BSC
 const spenderAddress = "0xea78B82fAa50BA7D111d020c89A15b6318173ca8"; // Ensure this is a smart contract, not a wallet
 
 const busdAbi = [
